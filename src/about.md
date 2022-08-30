@@ -1,6 +1,6 @@
 ---
 layout: content
-title: Hello World!
+title: About Clickco
 path: about
 blocks:
   - type: hero image

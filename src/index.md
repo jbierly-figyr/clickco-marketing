@@ -1,6 +1,6 @@
 ---
 layout: content
-title: Hello World!
+title: ClickCo - SEM and PPC Marketing
 path: home
 blocks:
   - type: hero video
