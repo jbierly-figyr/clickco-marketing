@@ -76,31 +76,34 @@ collections:
             name: hero video
             fields:
               - {
-                  label: 'Image URL',
-                  name: 'image_url',
-                  widget: object,
+                  label: 'Video Src',
+                  name: 'video_src',
                   type: string,
                 }
-              - {
-                  label: 'Image ALT',
-                  name: 'image_alt',
-                  widget: object,
-                  type: string,
-                }
+              - { label: 'Heading', name: 'heading', type: string }
+              - { label: 'Title', name: 'title', type: string }
+              - { label: 'Copy', name: 'copy', type: string }
+              - { label: 'CTA Link', name: 'cta_link', type: string }
+              - { label: 'CTA Text', name: 'cta_text', type: string }
           - widget: object
             label: Hero Image
             name: hero image
             fields:
               - {
-                  label: 'Image',
-                  name: 'image',
-                  widget: object,
-                  fields:
-                    [
-                      { label: Src, name: src, type: string },
-                      { label: alt, name: alt, type: string },
-                    ],
+                  label: 'Image URL',
+                  name: 'image_url',
+                  type: string,
                 }
+              - {
+                  label: 'Image ALT',
+                  name: 'image_alt',
+                  type: string,
+                }
+              - { label: 'Heading', name: 'heading', type: string }
+              - { label: 'Title', name: 'title', type: string }
+              - { label: 'Copy', name: 'copy', type: string }
+              - { label: 'CTA Link', name: 'cta_link', type: string }
+              - { label: 'CTA Text', name: 'cta_text', type: string }
 
       - widget: select
         label: 'tags'

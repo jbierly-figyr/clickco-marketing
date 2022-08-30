@@ -7,9 +7,9 @@ blocks:
     heading: h1
     title: Home Title
     subtitle: Home Subtitle
-    videoSrc: '/static/video/city.mp4'
-    ctaLink: '#'
-    ctaText: CTA Goes Here!
+    video_src: '/static/video/city.mp4'
+    cta_link: '#'
+    cta_text: CTA Goes Here!
   - type: logo cloud
     heading: p
     headingCopy: Hello world!
