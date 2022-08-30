@@ -82,7 +82,7 @@ collections:
                 }
               - { label: 'Heading', name: 'heading', type: string }
               - { label: 'Title', name: 'title', type: string }
-              - { label: 'Copy', name: 'copy', type: string }
+              - { label: 'Subtitle', name: 'subtitle', type: string }
               - { label: 'CTA Link', name: 'cta_link', type: string }
               - { label: 'CTA Text', name: 'cta_text', type: string }
           - widget: object
@@ -104,6 +104,56 @@ collections:
               - { label: 'Copy', name: 'copy', type: string }
               - { label: 'CTA Link', name: 'cta_link', type: string }
               - { label: 'CTA Text', name: 'cta_text', type: string }
+          - widget: object
+            label: Logo Cloud
+            name: logo cloud
+            fields:
+              - { label: 'Heading', name: 'heading', type: string }
+              - { label: 'Title', name: 'headingCopy', type: string }
+              - {
+                  label: 'Logos',
+                  name: 'logos',
+                  widget: 'list',
+                  fields:
+                    [
+                      {
+                        lable: 'Logo URL',
+                        name: 'url',
+                        type: string,
+                      },
+                      {
+                        label: 'Logo ALT',
+                        name: 'alt',
+                        type: 'string',
+                      },
+                    ],
+                }
+          - widget: object
+            label: Feature Image
+            name: feature image
+            fields:
+              [
+                { label: 'Heading', name: 'heading', type: string },
+                { label: 'Eyebrow', name: 'eyebrow', type: string },
+                { label: 'Title', name: 'title', type: string },
+                { label: 'Copy', name: 'intro', type: string },
+              ]
+
+          - widget: object
+            label: Features Grid
+            name: features grid
+
+          - widget: object
+            label: Testimonial
+            name: testimonial
+
+          - widget: object
+            label: Blog List
+            name: blog list
+
+          - widget: object
+            label: Call to Action
+            name: cta
 
       - widget: select
         label: 'tags'
