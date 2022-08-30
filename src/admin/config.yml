@@ -142,6 +142,7 @@ collections:
           - widget: object
             label: Features Grid
             name: features grid
+            fields: [{ label: 'Title', name: 'title', type: string }]
 
           - widget: object
             label: Testimonial
@@ -166,10 +167,16 @@ collections:
           - widget: object
             label: Blog List
             name: blog list
+            fields: [{ label: 'Title', name: 'title', type: string }]
 
           - widget: object
             label: Call to Action
             name: cta
+            fields:
+              [
+                { label: 'Eyebrow', name: 'eyebrow', type: string },
+                { label: 'Title', name: 'title', type: string },
+              ]
 
       - widget: select
         label: 'tags'
