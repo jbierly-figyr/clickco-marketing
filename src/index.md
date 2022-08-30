@@ -6,9 +6,9 @@ description: Here is a description
 blocks:
   - type: hero video
     heading: h1
-    title: Here is the Ocean
-    subtitle: Check out the Waves
-    video_src: /static/video/ocean.mp4
+    title: Here is the City
+    subtitle: Check out the Cabs
+    video_src: /static/video/city.mp4
     cta_link: "#"
     cta_text: CTA Goes Here!
   - type: features grid
