@@ -176,4 +176,16 @@ collections:
               [
                 { label: 'Eyebrow', name: 'eyebrow', type: string },
                 { label: 'Title', name: 'title', type: string },
+                { label: 'Image URL', name: 'image', type: string },
+                {
+                  label: 'Image Alt',
+                  name: 'image_alt',
+                  type: string,
+                },
+                { label: 'CTA Link', name: 'link_url', type: string },
+                {
+                  label: 'CTA Link Text',
+                  name: 'link_text',
+                  type: string,
+                },
               ]
