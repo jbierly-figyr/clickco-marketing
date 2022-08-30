@@ -4,6 +4,13 @@ title: ClickCo - SEM and PPC Marketing
 path: home
 description: Here is a description
 blocks:
+  - type: hero video
+    heading: h1
+    title: Home Title
+    subtitle: Home Subtitle
+    video_src: /static/video/city.mp4
+    cta_link: "#"
+    cta_text: CTA Goes Here!
   - type: logo cloud
     heading: p
     headingCopy: Hello world!
@@ -16,13 +23,6 @@ blocks:
         alt: tuple
       - url: https://tailwindui.com/img/logos/tuple-logo-gray-400.svg
         alt: tuple
-  - type: hero video
-    heading: h1
-    title: Home Title
-    subtitle: Home Subtitle
-    video_src: /static/video/city.mp4
-    cta_link: "#"
-    cta_text: CTA Goes Here!
   - type: feature image
     image_url: https://images.pexels.com/photos/6195165/pexels-photo-6195165.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1280&h=800&dpr=2
     image_alt: Alt Text...
