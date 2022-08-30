@@ -96,7 +96,7 @@ blocks:
       urna, sit.
     name: Judith Black
     title: CEO at PureInsights
-    image_src: https://images.unsplash.com/photo-1520333789090-1afc82db536a?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2102&amp;q=80
+    image_src: https://images.unsplash.com/photo-1519501025264-65ba15a82390?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1364&q=80
     imge_alt: Judith Black
   - type: logo cloud
     heading: p
