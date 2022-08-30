@@ -146,6 +146,22 @@ collections:
           - widget: object
             label: Testimonial
             name: testimonial
+            fields:
+              [
+                {
+                  label: 'Image URL',
+                  name: 'image_src',
+                  type: string,
+                },
+                {
+                  label: 'Image ALT Text',
+                  name: 'imge_alt',
+                  type: string,
+                },
+                { label: 'Name', name: 'name', type: string },
+                { label: 'Title', name: 'title', type: string },
+                { label: 'Quote', name: 'quote', type: string },
+              ]
 
           - widget: object
             label: Blog List
