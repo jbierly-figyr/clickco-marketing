@@ -61,6 +61,7 @@ collections:
           name: 'description',
           widget: 'string',
         }
+      - { label: 'Layout', name: 'layout', widget: 'string' }
       - widget: list
         label: Blocks
         name: blocks
