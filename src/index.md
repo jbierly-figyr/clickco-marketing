@@ -23,13 +23,6 @@ blocks:
         alt: tuple
       - url: https://tailwindui.com/img/logos/tuple-logo-gray-400.svg
         alt: tuple
-  - type: feature image
-    image_url: https://images.pexels.com/photos/6195165/pexels-photo-6195165.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1280&h=800&dpr=2
-    image_alt: Alt Text...
-    heading: h4
-    eyebrow: Eyebrow
-    title: Title goes Here
-    intro: Here is for copy...
   - type: features grid
     eyebrow: Eyebrow
     title: Here is a title
