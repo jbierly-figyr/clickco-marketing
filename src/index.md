@@ -11,18 +11,6 @@ blocks:
     video_src: /static/video/city.mp4
     cta_link: "#"
     cta_text: CTA Goes Here!
-  - type: logo cloud
-    heading: p
-    headingCopy: Hello world!
-    logos:
-      - url: https://tailwindui.com/img/logos/tuple-logo-gray-400.svg
-        alt: tuple
-      - url: https://tailwindui.com/img/logos/tuple-logo-gray-400.svg
-        alt: tuple
-      - url: https://tailwindui.com/img/logos/tuple-logo-gray-400.svg
-        alt: tuple
-      - url: https://tailwindui.com/img/logos/tuple-logo-gray-400.svg
-        alt: tuple
   - type: features grid
     eyebrow: Eyebrow
     title: Here is a title
@@ -110,6 +98,18 @@ blocks:
     title: CEO at PureInsights
     image_src: https://images.unsplash.com/photo-1520333789090-1afc82db536a?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2102&amp;q=80
     imge_alt: Judith Black
+  - type: logo cloud
+    heading: p
+    headingCopy: Hello world!
+    logos:
+      - url: https://tailwindui.com/img/logos/tuple-logo-gray-400.svg
+        alt: tuple
+      - url: https://tailwindui.com/img/logos/tuple-logo-gray-400.svg
+        alt: tuple
+      - url: https://tailwindui.com/img/logos/tuple-logo-gray-400.svg
+        alt: tuple
+      - url: https://tailwindui.com/img/logos/tuple-logo-gray-400.svg
+        alt: tuple
   - type: blog list
     eyebrow: Eyebrow
     title: Here is a title
