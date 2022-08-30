@@ -177,10 +177,3 @@ collections:
                 { label: 'Eyebrow', name: 'eyebrow', type: string },
                 { label: 'Title', name: 'title', type: string },
               ]
-
-      - widget: select
-        label: 'tags'
-        name: 'tags'
-        multiple: true
-        create: true
-        options: ['Tags', 'created', 'from', 'config.yml']
