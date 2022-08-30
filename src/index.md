@@ -9,28 +9,33 @@ blocks:
     title: Here is the City
     subtitle: Check out the Cabs
     video_src: /static/video/city.mp4
-    cta_link: "#"
+    cta_link: '#'
     cta_text: CTA Goes Here!
   - type: features grid
     eyebrow: Eyebrow
     title: Here is a title
-    intro: Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan
+    intro:
+      Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan
       in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra
       nulla.
     features:
       - title: Here is a Feature Title
-        copy: Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna
+        copy:
+          Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna
           sit morbi vitae lobortis.
-        icon: <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+        icon:
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
           stroke-width="1.5" stroke="white" class="w-6 h-6"><path
           stroke-linecap="round" stroke-linejoin="round" d="M3.75 21h16.5M4.5
           3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5
           3H15m-1.5 3H15M9 21v-3.375c0-.621.504-1.125 1 125-1.125h3.75c.621 0
           1.125.504 1.125 1.125V21" /></svg>
       - title: Here is a Feature Title
-        copy: Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna
+        copy:
+          Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna
           sit morbi vitae lobortis.
-        icon: <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+        icon:
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
           stroke-width="1.5" stroke="white" class="w-6 h-6"><path
           stroke-linecap="round" stroke-linejoin="round" d="M3 13.125C3 12.504
           3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496
@@ -41,9 +46,11 @@ blocks:
           1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504
           1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z" /></svg>
       - title: Here is a Feature Title
-        copy: Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna
+        copy:
+          Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna
           sit morbi vitae lobortis.
-        icon: <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+        icon:
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
           stroke-width="1.5" stroke="white" class="w-6 h-6"><path
           stroke-linecap="round" stroke-linejoin="round" d="M3 13.125C3 12.504
           3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496
@@ -54,18 +61,22 @@ blocks:
           1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504
           1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z" /></svg>
       - title: Here is a Feature Title
-        copy: Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna
+        copy:
+          Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna
           sit morbi vitae lobortis.
-        icon: <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+        icon:
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
           stroke-width="1.5" stroke="white" class="w-6 h-6"><path
           stroke-linecap="round" stroke-linejoin="round" d="M3.75 21h16.5M4.5
           3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5
           3H15m-1.5 3H15M9 21v-3.375c0-.621.504-1.125 1.125-1.125h3.75c.621 0
           1.125.504 1.125 1.125V21" /></svg>
       - title: Here is a Feature Title
-        copy: Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna
+        copy:
+          Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna
           sit morbi vitae lobortis.
-        icon: <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+        icon:
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
           stroke-width="1.5" stroke="white" class="w-6 h-6"><path
           stroke-linecap="round" stroke-linejoin="round" d="M3 13.125C3 12.504
           3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496
@@ -76,9 +87,11 @@ blocks:
           1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504
           1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z" /></svg>
       - title: Here is a Feature Title
-        copy: Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna
+        copy:
+          Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna
           sit morbi vitae lobortis.
-        icon: <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+        icon:
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
           stroke-width="1.5" stroke="white" class="w-6 h-6"><path
           stroke-linecap="round" stroke-linejoin="round" d="M3 13.125C3 12.504
           3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496
@@ -89,14 +102,13 @@ blocks:
           1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504
           1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z" /></svg>
   - type: testimonial
-    image_url: https://images.unsplash.com/photo-1520333789090-1afc82db536a?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2102&amp;q=80
-    image_alt: Here is some alt text
-    quote: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla
+    quote:
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla
       vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc
       urna, sit.
     name: Judith Black
     title: CEO at PureInsights
-    image_src: https://images.unsplash.com/photo-1519501025264-65ba15a82390?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1364&q=80
+    image_url: https://images.unsplash.com/photo-1519501025264-65ba15a82390?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1364&q=80
     imge_alt: Judith Black
   - type: logo cloud
     heading: p
@@ -113,7 +125,8 @@ blocks:
   - type: blog list
     eyebrow: Eyebrow
     title: Here is a title
-    intro: Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan
+    intro:
+      Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan
       in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra
       nulla.
     stories:
@@ -126,11 +139,12 @@ blocks:
   - type: cta
     eyebrow: Eyebrow
     title: Here is a title
-    intro: Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan
+    intro:
+      Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan
       in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra
       nulla.
     image: https://images.pexels.com/photos/196667/pexels-photo-196667.jpeg?cs=tinysrgb&auto=format&fit=crop&w=1920&q=60&sat=-100
     image_alt: Alt Text...
-    link_url: "#"
+    link_url: '#'
     link_text: Here is a CTA
 ---
