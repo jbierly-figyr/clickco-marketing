@@ -64,4 +64,18 @@ blocks:
     image: https://images.pexels.com/photos/196667/pexels-photo-196667.jpeg?cs=tinysrgb&auto=format&fit=crop&w=1920&q=60&sat=-100
     link_url: '#'
     link_text: Here is a CTA
+  - type: content
+    heading: h3
+    eyebrow: Eyebrow
+    title: Here is a title
+    image_url: https://images.unsplash.com/photo-1491895200222-0fc4a4c35e18?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-x=.735&fp-y=.55&w=1184&h=1376&q=80
+    image_alt: Here is some alt text...
+    image_caption: Here is a caption
+    intro: Here is an introductory sentence, in larger text...
+    copy: |
+      Planning for upgrades, increasing operational efficiency, focusing on cybersecurity, excelling at interconnecting systems, assessing the financial impact of systems and platforms, pursuing innovation, bolstering new revenue streams, all of these are traditional places to focus a digital strategy have one thing in common–they all in some manner are **indirect steps** from your organization's purpose–serving your audience.  Whether that audience is customers, consumers, members or citizens, your organization is modeled to provide products or services to those audiences, and not just to run the most sophisticated and secure technology platforms, most modernized cloud infrastructure, or efficient CI/CD pipeline.  So how do you create a digital strategy that answers the key traditional questions, but also clearly focuses on delivering the value to your customers?
+
+      ## Here is a text heading in Markdown.
+
+      Taking a customer centric, experience based lens to your digital strategy allows you to evaluate each component of your technical landscape to understand how it is either directly or indirectly supporting delivering value to your customers.  By spending time incorporating customer experience insights and analysis into your digital strategy, you are able to prioritize those programs and projects that make an impact on the products and services you provide, and the experiences you offer.
 ---
