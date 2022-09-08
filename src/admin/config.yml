@@ -70,8 +70,26 @@ collections:
             label: Content
             name: content
             fields:
-              - { label: Body, name: body, type: markdown }
-              - { label: 'Text Size', name: text_size, type: string }
+              - { label: 'Heading', name: 'heading', type: string }
+              - { label: 'Eyebrow', name: 'eyebrow', type: string }
+              - { label: 'Title', name: 'title', type: string }
+              - {
+                  label: 'Image URL',
+                  name: 'image_url',
+                  type: string,
+                }
+              - {
+                  label: 'Image Caption',
+                  name: 'image_caption',
+                  type: string,
+                }
+              - {
+                  label: 'Image Alt',
+                  name: 'image_alt',
+                  type: string,
+                }
+              - { label: Intro, name: intro, type: string }
+              - { label: Body, name: copy, type: markdown }
           - widget: object
             label: Hero Video
             name: hero video
