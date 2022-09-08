@@ -1,15 +1,18 @@
 ---
-layout: content
 title: About Clickco
+layout: content
 path: about
+description: Here is a description
 blocks:
   - type: hero image
     heading: h1
     title: About
     image_url: https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&amp;&sat=-100
     image_alt: Team working at desk
-    copy: Mattis amet hendrerit dolor, quisque lorem pharetra. Pellentesque lacus nisi urna, arcu sociis eu. Orci vel lectus nisl eget eget ut consectetur. Sit justo viverra non adipisicing elit distinctio.
-    cta_link: '#'
+    copy: Mattis amet hendrerit dolor, quisque lorem pharetra. Pellentesque lacus
+      nisi urna, arcu sociis eu. Orci vel lectus nisl eget eget ut consectetur.
+      Sit justo viverra non adipisicing elit distinctio.
+    cta_link: "#"
     cta_text: CTA Goes Here!
   - type: logo cloud
     heading: p
@@ -26,30 +29,86 @@ blocks:
   - type: features grid
     eyebrow: Eyebrow
     title: Here is a title
-    intro: Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.
+    intro: Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan
+      in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra
+      nulla.
     features:
       - title: Here is a Feature Title
-        copy: Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi vitae lobortis.
-        icon: <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5 3H15m-1.5 3H15M9 21v-3.375c0-.621.504-1.125 1 125-1.125h3.75c.621 0 1.125.504 1.125 1.125V21" /></svg>
+        copy: Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna
+          sit morbi vitae lobortis.
+        icon: <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+          stroke-width="1.5" stroke="white" class="w-6 h-6"><path
+          stroke-linecap="round" stroke-linejoin="round" d="M3.75 21h16.5M4.5
+          3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5
+          3H15m-1.5 3H15M9 21v-3.375c0-.621.504-1.125 1 125-1.125h3.75c.621 0
+          1.125.504 1.125 1.125V21" /></svg>
       - title: Here is a Feature Title
-        copy: Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi vitae lobortis.
-        icon: <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z" /></svg>
+        copy: Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna
+          sit morbi vitae lobortis.
+        icon: <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+          stroke-width="1.5" stroke="white" class="w-6 h-6"><path
+          stroke-linecap="round" stroke-linejoin="round" d="M3 13.125C3 12.504
+          3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496
+          6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75
+          8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125
+          1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0
+          01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125
+          1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504
+          1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z" /></svg>
       - title: Here is a Feature Title
-        copy: Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi vitae lobortis.
-        icon: <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z" /></svg>
+        copy: Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna
+          sit morbi vitae lobortis.
+        icon: <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+          stroke-width="1.5" stroke="white" class="w-6 h-6"><path
+          stroke-linecap="round" stroke-linejoin="round" d="M3 13.125C3 12.504
+          3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496
+          6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75
+          8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125
+          1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0
+          01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125
+          1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504
+          1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z" /></svg>
       - title: Here is a Feature Title
-        copy: Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi vitae lobortis.
-        icon: <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5 3H15m-1.5 3H15M9 21v-3.375c0-.621.504-1.125 1.125-1.125h3.75c.621 0 1.125.504 1.125 1.125V21" /></svg>
+        copy: Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna
+          sit morbi vitae lobortis.
+        icon: <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+          stroke-width="1.5" stroke="white" class="w-6 h-6"><path
+          stroke-linecap="round" stroke-linejoin="round" d="M3.75 21h16.5M4.5
+          3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5
+          3H15m-1.5 3H15M9 21v-3.375c0-.621.504-1.125 1.125-1.125h3.75c.621 0
+          1.125.504 1.125 1.125V21" /></svg>
       - title: Here is a Feature Title
-        copy: Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi vitae lobortis.
-        icon: <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z" /></svg>
+        copy: Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna
+          sit morbi vitae lobortis.
+        icon: <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+          stroke-width="1.5" stroke="white" class="w-6 h-6"><path
+          stroke-linecap="round" stroke-linejoin="round" d="M3 13.125C3 12.504
+          3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496
+          6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75
+          8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125
+          1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0
+          01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125
+          1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504
+          1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z" /></svg>
       - title: Here is a Feature Title
-        copy: Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi vitae lobortis.
-        icon: <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z" /></svg>
+        copy: Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna
+          sit morbi vitae lobortis.
+        icon: <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+          stroke-width="1.5" stroke="white" class="w-6 h-6"><path
+          stroke-linecap="round" stroke-linejoin="round" d="M3 13.125C3 12.504
+          3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496
+          6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75
+          8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125
+          1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0
+          01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125
+          1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504
+          1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z" /></svg>
   - type: blog list
     eyebrow: Eyebrow
     title: Here is a title
-    intro: Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.
+    intro: Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan
+      in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra
+      nulla.
     stories:
       - image: https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1679&amp;q=80
         type: Article
@@ -60,22 +119,74 @@ blocks:
   - type: cta
     eyebrow: Eyebrow
     title: Here is a title
-    intro: Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.
+    intro: Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan
+      in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra
+      nulla.
     image: https://images.pexels.com/photos/196667/pexels-photo-196667.jpeg?cs=tinysrgb&auto=format&fit=crop&w=1920&q=60&sat=-100
-    link_url: '#'
+    link_url: "#"
     link_text: Here is a CTA
-  - type: content
-    heading: h3
-    eyebrow: Eyebrow
-    title: Here is a title
-    image_url: https://images.unsplash.com/photo-1491895200222-0fc4a4c35e18?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-x=.735&fp-y=.55&w=1184&h=1376&q=80
-    image_alt: Here is some alt text...
+    image_alt: Here is some alt text
+  - heading: h3
     image_caption: Here is a caption
+    image_alt: Here is some alt text...
+    eyebrow: Eyebrow
+    image_url: https://images.unsplash.com/photo-1491895200222-0fc4a4c35e18?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-x=.735&fp-y=.55&w=1184&h=1376&q=80
     intro: Here is an introductory sentence, in larger text...
-    copy: |
-      Planning for upgrades, increasing operational efficiency, focusing on cybersecurity, excelling at interconnecting systems, assessing the financial impact of systems and platforms, pursuing innovation, bolstering new revenue streams, all of these are traditional places to focus a digital strategy have one thing in common–they all in some manner are **indirect steps** from your organization's purpose–serving your audience.  Whether that audience is customers, consumers, members or citizens, your organization is modeled to provide products or services to those audiences, and not just to run the most sophisticated and secure technology platforms, most modernized cloud infrastructure, or efficient CI/CD pipeline.  So how do you create a digital strategy that answers the key traditional questions, but also clearly focuses on delivering the value to your customers?
-
-      ## Here is a text heading in Markdown.
-
-      Taking a customer centric, experience based lens to your digital strategy allows you to evaluate each component of your technical landscape to understand how it is either directly or indirectly supporting delivering value to your customers.  By spending time incorporating customer experience insights and analysis into your digital strategy, you are able to prioritize those programs and projects that make an impact on the products and services you provide, and the experiences you offer.
+    copy: "Lorem ipsum dolor sit amet, **consectetur adipiscing elit,** sed do
+      eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo
+      viverra maecenas accumsan lacus vel. Neque sodales ut etiam sit. Commodo
+      nulla facilisi nullam vehicula ipsum a arcu cursus. Nulla posuere
+      sollicitudin aliquam ultrices sagittis orci. Non arcu risus quis varius
+      quam. Ut sem viverra aliquet eget. Faucibus purus in massa tempor nec.
+      Commodo elit at imperdiet dui accumsan sit amet nulla. Bibendum arcu vitae
+      elementum curabitur vitae nunc sed velit. Ultrices sagittis orci a
+      scelerisque purus semper. *Ultrices sagittis orci a scelerisque purus
+      semper eget.* Felis eget velit aliquet sagittis id consectetur purus ut
+      faucibus. Quis eleifend quam adipiscing vitae proin. Ullamcorper a lacus
+      vestibulum sed. Imperdiet nulla malesuada pellentesque elit eget   >
+      gravida cum sociis natoque.  Ac turpis egestas integer eget aliquet nibh.
+      Proin sed libero enim sed faucibus turpis in eu. Mauris rhoncus aenean vel
+      elit scelerisque mauris pellentesque. Quisque id diam vel quam elementum.
+      Volutpat sed cras ornare arcu dui vivamus. Tortor dignissim convallis
+      aenean et tortor at risus. Eleifend donec pretium vulputate sapien nec
+      sagittis aliquam malesuada bibendum. Nunc congue nisi vitae suscipit
+      tellus. Sit amet tellus cras adipiscing enim eu. Volutpat blandit aliquam
+      etiam erat velit scelerisque in dictum non. Venenatis a condimentum vitae
+      sapien pellentesque habitant morbi. Ultricies tristique nulla aliquet
+      enim. Tristique risus nec feugiat in fermentum posuere. Placerat duis
+      ultricies lacus sed turpis tincidunt id aliquet risus. Est sit amet
+      facilisis magna etiam tempor orci eu lobortis. Imperdiet nulla malesuada
+      pellentesque elit eget gravida. Habitant morbi tristique senectus et.
+      Vitae sapien pellentesque habitant morbi tristique. Nisl purus in mollis
+      nunc sed id semper. Enim sit amet venenatis urna cursus eget nunc
+      scelerisque viverra.  Lectus proin nibh nisl condimentum. Aenean sed
+      adipiscing diam donec adipiscing tristique risus nec. Facilisi nullam
+      vehicula ipsum a arcu cursus. Vulputate dignissim suspendisse in est ante
+      in nibh. A iaculis at erat pellentesque adipiscing. Facilisis leo vel
+      fringilla est ullamcorper eget nulla. Adipiscing enim eu turpis egestas
+      pretium aenean pharetra. Pellentesque dignissim enim sit amet venenatis
+      urna. Et sollicitudin ac orci phasellus egestas tellus rutrum tellus
+      pellentesque. Quam elementum pulvinar etiam non. Maecenas sed enim ut sem.
+      Turpis nunc eget lorem dolor sed viverra ipsum. Sed vulputate odio ut enim
+      blandit volutpat maecenas volutpat blandit. Amet dictum sit amet justo
+      donec enim diam.  Vitae congue eu consequat ac felis donec. Libero enim
+      sed faucibus turpis in eu mi bibendum neque. Adipiscing diam donec
+      adipiscing tristique risus. Diam in arcu cursus euismod. Semper risus in
+      hendrerit gravida rutrum quisque non tellus. Donec ultrices tincidunt arcu
+      non sodales. Tortor pretium viverra suspendisse potenti. Risus ultricies
+      tristique nulla aliquet enim tortor at. Lectus vestibulum mattis
+      ullamcorper velit sed ullamcorper morbi. Ipsum nunc aliquet bibendum enim
+      facilisis. Neque aliquam vestibulum morbi blandit cursus risus at.  Nisl
+      rhoncus mattis rhoncus urna neque. Netus et malesuada fames ac.
+      Scelerisque viverra mauris in aliquam sem fringilla ut morbi. Fringilla
+      est ullamcorper eget nulla facilisi etiam. Vitae et leo duis ut diam. Id
+      venenatis a condimentum vitae sapien pellentesque habitant morbi. Tortor
+      posuere ac ut consequat semper. Pharetra pharetra massa massa ultricies
+      mi. Gravida dictum fusce ut placerat orci. Ornare arcu odio ut sem nulla
+      pharetra diam sit. Semper quis lectus nulla at volutpat diam. Maecenas
+      ultricies mi eget mauris pharetra et ultrices neque ornare. Nullam eget
+      felis eget nunc. Donec adipiscing tristique risus nec.  ##### ©  2015 —
+      2022"
+    title: Here is a title
+    type: content
 ---
