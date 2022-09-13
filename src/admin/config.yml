@@ -166,7 +166,23 @@ collections:
           - widget: object
             label: Features Grid
             name: features grid
-            fields: [{ label: 'Title', name: 'title', type: string }]
+            fields:
+              [
+                { label: 'Heading', name: 'heading', type: string },
+                { label: 'Eyebrow', name: 'eyebrow', type: string },
+                { label: 'Title', name: 'title', type: string },
+                {
+                  label: 'Features',
+                  name: 'features',
+                  widget: 'list',
+                  fields:
+                    [
+                      { lable: 'Title', name: 'title', type: string },
+                      { label: 'Icon', name: 'icon', type: 'string' },
+                      { label: 'Copy', name: 'copy', type: 'string' },
+                    ],
+                },
+              ]
 
           - widget: object
             label: Testimonial
@@ -191,7 +207,34 @@ collections:
           - widget: object
             label: Blog List
             name: blog list
-            fields: [{ label: 'Title', name: 'title', type: string }]
+            fields:
+              [
+                { label: 'Eyebrow', name: 'eyebrow', type: string },
+                { label: 'Title', name: 'title', type: string },
+                { label: 'Intro', name: 'intro', type: string },
+                {
+                  label: 'Stories',
+                  name: 'stories',
+                  widget: 'list',
+                  fields:
+                    [
+                      { label: 'Title', name: 'title', type: string },
+                      {
+                        label: 'Type',
+                        name: 'type',
+                        type: string,
+                        required: false,
+                      },
+                      {
+                        label: 'Image',
+                        name: 'image',
+                        type: string,
+                        required: false,
+                      },
+                      { label: 'Copy', name: 'copy', type: 'string' },
+                    ],
+                },
+              ]
 
           - widget: object
             label: Call to Action
