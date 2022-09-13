@@ -89,7 +89,12 @@ collections:
                   type: string,
                 }
               - { label: Intro, name: intro, type: string }
-              - { label: Body, name: copy, type: markdown }
+              - {
+                  label: Body,
+                  name: copy,
+                  type: markdown,
+                  mode: rich_text,
+                }
           - widget: object
             label: Hero Video
             name: hero video

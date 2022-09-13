@@ -412,5 +412,151 @@ title: Content Page
     </div>
   </div>
   {%endif%}
+  {%if item.type==='contact form'%}
+  <div class="relative mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8">
+    <div
+        class="text-center mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl"
+      >
+        <h2
+          class="text-base font-semibold tracking-wider text-clickco-turquoise-600 uppercase"
+        >
+          {{item.eyebrow}}
+        </h2>
+        <p
+          class="mt-2 text-3xl font-extrabold text-clickco-blue-500 tracking-tight sm:text-4xl"
+        >
+          {{item.title}}
+        </p>
+        <p
+          class="mt-5 mx-auto max-w-prose text-xl text-clickco-gray-500"
+        >
+          {{item.intro}}
+        </p>
+      </div>
+    <form>
+      <div class="form-group mb-6">
+        <label>Name</label>
+        <input type="text" name="name" class="form-control block
+          w-full
+          px-3
+          py-1.5
+          text-base
+          font-normal
+          text-gray-700
+          bg-white bg-clip-padding
+          border border-solid border-gray-300
+          rounded-lg
+          transition
+          ease-in-out
+          m-0
+          focus:text-gray-700 focus:bg-white focus:border-clickco-turquoise-600 focus:outline-none" id="exampleInput7"
+          >
+      </div>
+      <div class="form-group mb-6">
+        <label>Email</label>
+        <input type="email" name="email" class="form-control block
+          w-full
+          px-3
+          py-1.5
+          text-base
+          font-normal
+          text-gray-700
+          bg-white bg-clip-padding
+          border border-solid border-gray-300
+          rounded-lg
+          transition
+          ease-in-out
+          m-0
+          focus:text-gray-700 focus:bg-white focus:border-clickco-turquoise-600 focus:outline-none" id="exampleInput8"
+          >
+      </div>
+      <div class="form-group mb-6">
+        <label>Company</label>
+        <input type="text" name="company" class="form-control block
+          w-full
+          px-3
+          py-1.5
+          text-base
+          font-normal
+          text-gray-700
+          bg-white bg-clip-padding
+          border border-solid border-gray-300
+          rounded-lg
+          transition
+          ease-in-out
+          m-0
+          focus:text-gray-700 focus:bg-white focus:border-clickco-turquoise-600 focus:outline-none" id="exampleInput7"
+          >
+      </div>
+      <div class="form-group mb-6">
+        <label>How can I help?</label>
+        <textarea
+        name="how-help"
+        class="
+          form-control
+          block
+          w-full
+          px-3
+          py-1.5
+          text-base
+          font-normal
+          text-gray-700
+          bg-white bg-clip-padding
+          border border-solid border-gray-300
+          rounded-lg
+          transition
+          ease-in-out
+          m-0
+          focus:text-gray-700 focus:bg-white focus:border-clickco-turquoise-600 focus:outline-none
+        "
+        id="exampleFormControlTextarea13"
+        rows="3"
+      ></textarea>
+      </div>
+      <div class="form-group mb-6">
+        <label>How did you hear about me?</label>
+        <textarea
+        name="how-hear"
+        class="
+          form-control
+          block
+          w-full
+          px-3
+          py-1.5
+          text-base
+          font-normal
+          text-gray-700
+          bg-white bg-clip-padding
+          border border-solid border-gray-300
+          rounded-lg
+          transition
+          ease-in-out
+          m-0
+          focus:text-gray-700 focus:bg-white focus:border-clickco-turquoise-600 focus:outline-none
+        "
+        id="exampleFormControlTextarea13"
+        rows="3"
+      ></textarea>
+      </div>
+      <button type="submit" class="
+        px-6
+        py-2.5
+        bg-clickco-turquoise-600
+        text-white
+        font-bold
+        text-lg
+        leading-tight
+        uppercase
+        rounded-lg
+        shadow-md
+        hover:bg-clickco-turquoise-700 hover:shadow-lg
+        focus:bg-clickco-turquoise-700 focus:shadow-lg focus:outline-none focus:ring-0
+        active:bg-clickco-turquoise-800 active:shadow-lg
+        transition
+        duration-150
+        ease-in-out">Send</button>
+    </form>
+  </div>
+  {%endif%}
   {% endfor %}
 </main>
