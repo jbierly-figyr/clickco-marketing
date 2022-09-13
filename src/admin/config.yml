@@ -256,3 +256,61 @@ collections:
                   type: string,
                 },
               ]
+          - widget: object
+            label: Contact Form
+            name: contact form
+            fields:
+              [
+                {
+                  label: 'Eyebrow',
+                  name: 'eyebrow',
+                  type: string,
+                  required: false,
+                },
+                {
+                  label: 'Title',
+                  name: 'title',
+                  type: string,
+                  required: false,
+                },
+                {
+                  label: 'Intro',
+                  name: 'intro',
+                  type: string,
+                  required: false,
+                },
+                {
+                  label: 'Button Text',
+                  name: 'submit_button_text',
+                  type: string,
+                },
+              ]
+          - widget: object
+            label: Consultation Form
+            name: consult form
+            fields:
+              [
+                {
+                  label: 'Eyebrow',
+                  name: 'eyebrow',
+                  type: string,
+                  required: false,
+                },
+                {
+                  label: 'Title',
+                  name: 'title',
+                  type: string,
+                  required: false,
+                },
+                {
+                  label: 'Intro',
+                  name: 'intro',
+                  type: string,
+                  required: false,
+                },
+                {
+                  label: 'Button Text',
+                  name: 'submit_button_text',
+                  type: string,
+                },
+              ]
