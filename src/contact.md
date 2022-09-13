@@ -7,4 +7,5 @@ blocks:
     eyebrow: Eyebrow goes Here
     title: Title goes Here
     intro: Here is some intro text...
+    submit_button_text: Send
 ---
