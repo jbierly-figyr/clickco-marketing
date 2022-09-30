@@ -125,6 +125,12 @@ collections:
                 }
               - { label: 'Heading', name: 'heading', type: string }
               - { label: 'Title', name: 'title', type: string }
+              - {
+                  label: 'Theme',
+                  name: 'theme',
+                  widget: 'select',
+                  options: ['light', 'dark', 'alternate'],
+                }
               - { label: 'Copy', name: 'copy', type: string }
               - { label: 'CTA Link', name: 'cta_link', type: string }
               - { label: 'CTA Text', name: 'cta_text', type: string }
