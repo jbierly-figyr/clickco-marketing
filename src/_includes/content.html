@@ -54,20 +54,22 @@ title: Content Page
         src="{{item.image_url}}"
         alt="{{itme.image_alt}}"
       />
+
       <div
-        class="absolute inset-0 bg-clickco-turquoise-500 mix-blend-multiply"
+        class="absolute inset-0 {%if item.theme === 'alternate'%} bg-clickco-turquoise-500 mix-blend-multiply {%endif%}"
         aria-hidden="true"
       ></div>
+
     </div>
     <div
       class="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8"
     >
       <{{item.heading}}
-        class="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl"
+        class="text-4xl font-bold tracking-tight {%if item.theme !== 'light' %} text-white {%endif%} sm:text-5xl lg:text-6xl"
       >
         {{item.title}}
       </{{item.heading}}>
-      <p class="mt-6 text-xl text-clickco-turquoise-100 max-w-3xl">
+      <p class="mt-6 text-xl {%if item.theme === 'alternate'%} text-clickco-turquoise-100 {%endif%} {%if item.theme === 'dark'%}  text-white {%endif%} max-w-3xl">
         {{item.copy}}
       </p>
     </div>

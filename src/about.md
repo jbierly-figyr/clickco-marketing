@@ -7,7 +7,8 @@ blocks:
   - type: hero image
     heading: h1
     title: About
-    image_url: https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&amp;&sat=-100
+    theme: dark
+    image_url: https://images.unsplash.com/photo-1493514789931-586cb221d7a7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2971&q=80
     image_alt: Team working at desk
     copy:
       Mattis amet hendrerit dolor, quisque lorem pharetra. Pellentesque lacus

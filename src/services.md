@@ -6,7 +6,8 @@ blocks:
   - type: hero image
     heading: h1
     title: Services
-    image_url: https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&amp;&sat=-100
+    theme: light
+    image_url: https://images.unsplash.com/photo-1518355077561-4af7abce973d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&q=60
     image_alt: People at desk working.
     copy: Mattis amet hendrerit dolor, quisque lorem pharetra. Pellentesque lacus nisi urna, arcu sociis eu. Orci vel lectus nisl eget eget ut consectetur. Sit justo viverra non adipisicing elit distinctio.
     cta_link: '#'
